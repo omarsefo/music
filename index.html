@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <main id="playr">
+        <header>
+            <img data-tilt data-tilt-reset="true" id="img" src="imagg/download.png"  alt="icon">
+            <h1>Omar Music</h1>
+            <p id="pp">sia</p>
+        </header>
+        <div id="cont">
+            <article id="font">
+            <i id="i1" class="fas fa-backward"></i>
+            <i id="i2" class="fas fa-play"></i>
+            <i id="i3" class="fas fa-forward"></i>
+            <audio id="audioo" src="" type="mp3"></audio>
+            </article>
+            <article id="change">
+                <h2>Volume</h2>
+                <input type="range" id="inp1">
+                <h2>Speed  <button class="bt fas fa-redo-alt"></button></h2>
+                <input type="range" id="inp2" max="200" min="0">
+            </article>
+            <div class="cir">
+                <button id="ci1" class="cir1"></button>
+                <button id="ci2" class="cir2"></button>
+                <button id="ci3" class="cir3"></button>
+                <button id="ci4" class="cir4"></button>
+            </div>
+        </div>
+    </main>
+
+    <script src="js.js"></script>
+    <script src="vanilla-tilt.js"></script>
+</body>
+</html>

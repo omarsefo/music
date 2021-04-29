@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ccc;
+}
+main{
+    width: 360px;
+    background: linear-gradient(to right, #c6ff22, #fbd786, #f7797d);
+    box-shadow: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+header{
+    text-align: center;
+    height: 300px;
+}
+header img{
+    height: 140px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 70%;
+}
+header h1{
+    margin:20px 0;
+}
+header p{
+    font-size: 22px;
+}
+#cont{
+    background: #666;
+}
+#font{
+    display: flex;
+    justify-content: center;
+}
+#font i{
+    font-size: 30px;
+    margin:20px 20px;
+    cursor: pointer;
+    color:#111;
+}
+#change{
+    text-align: center;
+}
+#change input{
+    width: 90%;
+}
+
+input[type="range" i]{
+    background: linear-gradient(to right, #c6ff22, #fbd786, #f7797d);
+    -webkit-appearance: none;
+    height: 4px;
+    margin: 0;
+}
+input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: linear-gradient(to right, #c6ff22, #fbd786, #f7797d);
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+h2{
+    margin: 10px 0;
+}
+.bt{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+   margin-left: 14px;
+   cursor: pointer;
+   background:  linear-gradient(to left, #12c2e9, #c471ed, #f64f59);;
+}
+.cir{
+    display: flex;
+    margin: 0 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.cir1{
+    background:linear-gradient(to right, #c6ff22, #fbd786, #f7797d) ;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.cir2{
+    background: linear-gradient(to right, #8a2387, #e94057, #f27121);   
+     width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.cir3{
+    background:linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.cir4{
+    background: linear-gradient(to right, #40e0d0, #ff8c00, #ff0080); 
+       width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+}
