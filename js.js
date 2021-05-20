@@ -21,31 +21,21 @@ onload = new Play();
 
    var namee =[];
    namee[0]="Flo Rida Wild Ones ft.Sia";
-   namee[1]="Sia Alive";
-   namee[2]="Sia The Greatest";
-   namee[3]="Sia Im Still Here";
-   namee[4]="Sia High Life ft. Rihanna";
-   namee[5]="Sia Elastic Heart";
-   namee[6]="Sia Bird Set Free";
-   namee[7]="Sia Unstoppable";
-   namee[8]="LSD Genius ft.Sia Diplo Labrinth";
-   namee[9]="LSD Thunderclouds ft. Sia Dipl";
-   namee[10]="LSD No New Friends ft. Labrinth";
-   namee[11]="Sia CheapThrills";
+   namee[1]="Sia Im Still Here";
+   namee[2]="Sia High Life ft. Rihanna";
+   namee[3]="Sia Elastic Heart";
+   namee[4]="LSD Genius ft.Sia Diplo Labrinth";
+   namee[5]="LSD Thunderclouds ft. Sia Dipl";
+   namee[6]="LSD No New Friends ft. Labrinth";
 
    var srcc =[];
    srcc[0]="music/Flo_Rida_Wild_Ones_ft.Sia.mp3";
-   srcc[1]="music/Sia_Alive.mp3";
-   srcc[2]="music/Sia_The_Greatest.mp3";
-   srcc[3]="music/Sia_I_m_Still_Here.mp3";
-   srcc[4]="music/Sia_High_Life_ft._Rihanna.mp3";
-   srcc[5]="music/Sia_Elastic_Heart.mp3";
-   srcc[6]="music/Sia_Bird_Set_Free.mp3";
-   srcc[7]="music/Sia_Unstoppable.mp3";
-   srcc[8]="music/LSD_Genius_ft.Sia_Diplo_Labrinth.mp3";
-   srcc[9]="music/LSD_Thunderclouds_ft. Sia_Dipl.mp3";
-   srcc[10]="music/LSD_No New Friends_ft. Labrinth.mp3";
-   srcc[11]="music/SiaCheapThrills.mp3";
+   srcc[1]="music/Sia_I_m_Still_Here.mp3";
+   srcc[2]="music/Sia_High_Life_ft._Rihanna.mp3";
+   srcc[3]="music/Sia_Elastic_Heart.mp3";
+   srcc[4]="music/LSD_Genius_ft.Sia_Diplo_Labrinth.mp3";
+   srcc[5]="music/LSD_Thunderclouds_ft. Sia_Dipl.mp3";
+   srcc[6]="music/LSD_No New Friends_ft. Labrinth.mp3";
 
 var cou = 0;
 
